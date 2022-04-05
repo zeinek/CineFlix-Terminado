@@ -1,0 +1,101 @@
+.navbar-inverse {
+    background-color: #bf0000;
+    border-color: #080808;
+   
+}
+.p{
+    font-size: 20px !important;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue, 0 0 25px  purple, 0 0 25px  red;
+  
+    
+    }
+
+.navbar-inverse .navbar-nav>li>a {
+        color: white;
+        
+    } 
+    
+#myCarousel {
+    padding: 30px 20 px;
+    margin-bottom: 20px;
+   
+}
+
+footer {
+ text-align:end; 
+ text-shadow: gray;
+ background-color: black;
+ color: white;
+ padding: 20px;
+}   
+
+.bg-dark {
+    
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif; 
+    padding-right: 5px;
+}
+    
+.logo img {
+    width: 50px ;
+    height: 50px;
+ }
+
+.d-block {
+    display: block!important;
+    padding-bottom: 1px !important;
+    padding-top: 10px !important;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: red;
+    border-color: ghostwhite !important;
+   
+
+}
+
+.btn-primary {
+    color: black;
+    background-color: ghostwhite;
+    border-color: red;
+    }
+    .mt-3 {
+        margin-top: 1rem!important;
+        padding-bottom: 20px;
+    }
+    
+    .btn button{
+        background-color: black;
+        color: white;
+        border-color: white;
+        border-radius: 50 px;
+        text-transform: uppercase;
+        font-family:fantasy
+    }
+    .btn button:hover{
+        color: red;
+        background-color: black;
+        border-color: red;
+       } 
+
+.logo img {
+        width: 100px;
+        height: 60px;
+    }
+
+  
