@@ -135,3 +135,14 @@ footer{
     text-align: right;
     padding: 5px;
 }
+
+.form input{
+	background: #000000;
+	color: white;
+	border: 1px solid #00a2ff;
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
