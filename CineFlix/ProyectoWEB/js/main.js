@@ -11,20 +11,19 @@ form.addEventListener('submit', e => {
 });
 
 function checkInputs() {
-	// trim to remove the whitespaces
 	const usuarioValue = usuario.value.trim();
 	const emailValue = email.value.trim();
 	const passwordValue = password.value.trim();
 	const password2Value = password2.value.trim();
 	
 	if(usuarioValue === '') {
-		setErrorFor(usuario, 'No puede dejar el usuario en blanco');
+		setErrorFor(usuario, 'Campo vacío');
 	} else {
 		setSuccessFor(usuario);
 	}
 	
 	if(emailValue === '') {
-		setErrorFor(email, 'No puede dejar el email en blanco');
+		setErrorFor(email, 'Campo vacío');
 	} else if (!isEmail(emailValue)) {
 		setErrorFor(email, 'No ingresó un email válido');
 	} else {
@@ -32,13 +31,13 @@ function checkInputs() {
 	}
 	
 	if(passwordValue === '') {
-		setErrorFor(password, 'Contraseña no debe dejarla en blanco.');
+		setErrorFor(password, 'Campo vacío');
 	} else {
 		setSuccessFor(password);
 	}
 	
 	if(password2Value === '') {
-		setErrorFor(password2, 'Repetir contraseña no debe dejarla en blanco');
+		setErrorFor(password2, 'Campo vacío');
 	} else if(passwordValue !== password2Value) {
 		setErrorFor(password2, 'Las contraseñas no coinciden');
 	} else{
